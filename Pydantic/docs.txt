@@ -1,0 +1,13 @@
+-type validation
+-data validation
+
+#roughly if we see pydantic ensures a robust and edge case free programs especially if we r designing
+Api a safer and validated data transfer helps
+
+##What it spans across
+
+- the basic BASEMODEL inheritance
+- Field Validator
+- Model Validator
+- Nested Model
+- Serialisation
