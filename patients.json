@@ -1,212 +1,122 @@
 {
   "P001": {
     "name": "Aarav Sharma",
+    "city": "Delhi",
     "age": 29,
     "gender": "Male",
-    "height_cm": 175,
-    "weight_kg": 72,
-    "blood_group": "B+",
-    "city": "Delhi",
-    "state": "Delhi",
-    "phone": "+91-9876543201",
-    "email": "aarav.sharma@example.com",
-    "occupation": "Software Engineer",
-    "marital_status": "Single",
-    "allergies": ["Penicillin"],
-    "medical_conditions": [],
-    "emergency_contact": {
-      "name": "Rohit Sharma",
-      "relation": "Brother",
-      "phone": "+91-9876543210"
-    }
+    "height": 1.75,
+    "weight": 72,
+    "bmi": 23.5,
+    "verdict": "Normal"
   },
   "P002": {
     "name": "Priya Verma",
+    "city": "Jaipur",
     "age": 35,
     "gender": "Female",
-    "height_cm": 162,
-    "weight_kg": 58,
-    "blood_group": "O+",
-    "city": "Jaipur",
-    "state": "Rajasthan",
-    "phone": "+91-9876543202",
-    "email": "priya.verma@example.com",
-    "occupation": "Teacher",
-    "marital_status": "Married",
-    "allergies": [],
-    "medical_conditions": ["Hypothyroidism"],
-    "emergency_contact": {
-      "name": "Ankit Verma",
-      "relation": "Husband",
-      "phone": "+91-9876543220"
-    }
+    "height": 1.62,
+    "weight": 58,
+    "bmi": 22.1,
+    "verdict": "Normal"
   },
   "P003": {
     "name": "Rahul Mehta",
+    "city": "Ahmedabad",
     "age": 47,
     "gender": "Male",
-    "height_cm": 170,
-    "weight_kg": 81,
-    "blood_group": "A+",
-    "city": "Ahmedabad",
-    "state": "Gujarat",
-    "phone": "+91-9876543203",
-    "email": "rahul.mehta@example.com",
-    "occupation": "Business Owner",
-    "marital_status": "Married",
-    "allergies": ["Dust"],
-    "medical_conditions": ["Hypertension"],
-    "emergency_contact": {
-      "name": "Neha Mehta",
-      "relation": "Wife",
-      "phone": "+91-9876543230"
-    }
+    "height": 1.7,
+    "weight": 81,
+    "bmi": 28.0,
+    "verdict": "Normal"
   },
   "P004": {
     "name": "Sneha Kapoor",
+    "city": "Chandigarh",
     "age": 24,
     "gender": "Female",
-    "height_cm": 168,
-    "weight_kg": 55,
-    "blood_group": "AB+",
-    "city": "Chandigarh",
-    "state": "Punjab",
-    "phone": "+91-9876543204",
-    "email": "sneha.kapoor@example.com",
-    "occupation": "Graphic Designer",
-    "marital_status": "Single",
-    "allergies": ["Peanuts"],
-    "medical_conditions": [],
-    "emergency_contact": {
-      "name": "Ritika Kapoor",
-      "relation": "Mother",
-      "phone": "+91-9876543240"
-    }
+    "height": 1.68,
+    "weight": 55,
+    "bmi": 19.5,
+    "verdict": "Normal"
   },
   "P005": {
     "name": "Vikram Singh",
+    "city": "Lucknow",
     "age": 53,
     "gender": "Male",
-    "height_cm": 178,
-    "weight_kg": 89,
-    "blood_group": "O-",
-    "city": "Lucknow",
-    "state": "Uttar Pradesh",
-    "phone": "+91-9876543205",
-    "email": "vikram.singh@example.com",
-    "occupation": "Bank Manager",
-    "marital_status": "Married",
-    "allergies": [],
-    "medical_conditions": ["Type 2 Diabetes"],
-    "emergency_contact": {
-      "name": "Kiran Singh",
-      "relation": "Wife",
-      "phone": "+91-9876543250"
-    }
+    "height": 1.78,
+    "weight": 89,
+    "bmi": 28.1,
+    "verdict": "Normal"
   },
   "P006": {
     "name": "Ananya Iyer",
+    "city": "Bengaluru",
     "age": 31,
     "gender": "Female",
-    "height_cm": 160,
-    "weight_kg": 54,
-    "blood_group": "A-",
-    "city": "Bengaluru",
-    "state": "Karnataka",
-    "phone": "+91-9876543206",
-    "email": "ananya.iyer@example.com",
-    "occupation": "Doctor",
-    "marital_status": "Married",
-    "allergies": ["Shellfish"],
-    "medical_conditions": [],
-    "emergency_contact": {
-      "name": "Raghav Iyer",
-      "relation": "Husband",
-      "phone": "+91-9876543260"
-    }
+    "height": 1.6,
+    "weight": 54,
+    "bmi": 21.1,
+    "verdict": "Normal"
   },
   "P007": {
     "name": "Karan Malhotra",
+    "city": "Mumbai",
     "age": 40,
     "gender": "Male",
-    "height_cm": 182,
-    "weight_kg": 84,
-    "blood_group": "B-",
-    "city": "Mumbai",
-    "state": "Maharashtra",
-    "phone": "+91-9876543207",
-    "email": "karan.malhotra@example.com",
-    "occupation": "Marketing Manager",
-    "marital_status": "Married",
-    "allergies": [],
-    "medical_conditions": ["Asthma"],
-    "emergency_contact": {
-      "name": "Nisha Malhotra",
-      "relation": "Wife",
-      "phone": "+91-9876543270"
-    }
+    "height": 1.82,
+    "weight": 84,
+    "bmi": 25.4,
+    "verdict": "Normal"
   },
   "P008": {
     "name": "Meera Nair",
+    "city": "Kochi",
     "age": 27,
     "gender": "Female",
-    "height_cm": 165,
-    "weight_kg": 60,
-    "blood_group": "AB-",
-    "city": "Kochi",
-    "state": "Kerala",
-    "phone": "+91-9876543208",
-    "email": "meera.nair@example.com",
-    "occupation": "Research Scientist",
-    "marital_status": "Single",
-    "allergies": ["Latex"],
-    "medical_conditions": [],
-    "emergency_contact": {
-      "name": "Suresh Nair",
-      "relation": "Father",
-      "phone": "+91-9876543280"
-    }
+    "height": 1.65,
+    "weight": 60,
+    "bmi": 22.0,
+    "verdict": "Normal"
   },
   "P009": {
     "name": "Arjun Reddy",
+    "city": "Hyderabad",
     "age": 61,
     "gender": "Male",
-    "height_cm": 169,
-    "weight_kg": 76,
-    "blood_group": "A+",
-    "city": "Hyderabad",
-    "state": "Telangana",
-    "phone": "+91-9876543209",
-    "email": "arjun.reddy@example.com",
-    "occupation": "Retired Professor",
-    "marital_status": "Married",
-    "allergies": [],
-    "medical_conditions": ["Hypertension", "High Cholesterol"],
-    "emergency_contact": {
-      "name": "Lakshmi Reddy",
-      "relation": "Wife",
-      "phone": "+91-9876543290"
-    }
+    "height": 1.69,
+    "weight": 76,
+    "bmi": 26.6,
+    "verdict": "Normal"
   },
   "P010": {
     "name": "Ishita Gupta",
+    "city": "Pune",
     "age": 22,
     "gender": "Female",
-    "height_cm": 158,
-    "weight_kg": 50,
-    "blood_group": "O+",
-    "city": "Pune",
-    "state": "Maharashtra",
-    "phone": "+91-9876543211",
-    "email": "ishita.gupta@example.com",
-    "occupation": "Student",
-    "marital_status": "Single",
-    "allergies": [],
-    "medical_conditions": [],
-    "emergency_contact": {
-      "name": "Amit Gupta",
-      "relation": "Father",
-      "phone": "+91-9876543300"
-    }
+    "height": 1.58,
+    "weight": 50,
+    "bmi": 20.0,
+    "verdict": "Normal"
+  },
+  "P011": {
+    "name": "Rohit",
+    "city": "Delhi",
+    "age": 32,
+    "gender": "male",
+    "height": 1.7,
+    "weight": 67.2,
+    "bmi": 23.25,
+    "verdict": "Normal"
+  },
+  "P012": {
+    "name": "Rohit",
+    "city": "Delhi",
+    "age": 32,
+    "gender": "male",
+    "height": 1.7,
+    "weight": 67.2,
+    "bmi": 23.25,
+    "verdict": "Normal"
   }
 }
