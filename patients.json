@@ -1,23 +1,23 @@
 {
   "P001": {
-    "name": "Aarav Sharma",
-    "city": "Delhi",
-    "age": 29,
-    "gender": "Male",
-    "height": 1.75,
-    "weight": 72,
-    "bmi": 23.5,
-    "verdict": "Normal"
+    "name": "X",
+    "city": "string",
+    "age": 1,
+    "gender": "male",
+    "height": 1.0,
+    "weight": 1.0,
+    "bmi": 1.0,
+    "verdict": "Underweight"
   },
   "P002": {
     "name": "Priya Verma",
     "city": "Jaipur",
     "age": 35,
-    "gender": "Female",
+    "gender": "female",
     "height": 1.62,
-    "weight": 58,
-    "bmi": 22.1,
-    "verdict": "Normal"
+    "weight": 100.0,
+    "bmi": 38.1,
+    "verdict": "Obese"
   },
   "P003": {
     "name": "Rahul Mehta",
@@ -100,16 +100,6 @@
     "verdict": "Normal"
   },
   "P011": {
-    "name": "Rohit",
-    "city": "Delhi",
-    "age": 32,
-    "gender": "male",
-    "height": 1.7,
-    "weight": 67.2,
-    "bmi": 23.25,
-    "verdict": "Normal"
-  },
-  "P012": {
     "name": "Rohit",
     "city": "Delhi",
     "age": 32,

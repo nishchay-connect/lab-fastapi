@@ -44,8 +44,18 @@ class UserInput(BaseModel):
 app=FastAPI()
 @app.post('/predict')
 def predict_premium(userInput:UserInput):
-    input_df=pd.DataFrame(
-        [userInput.model_dump(include=['bmi','age_group','lifestyle_risk','city_tier','income_lpa','occupation'])])
+    pyd_dict=userInput.model_dump()
+    out={} # the req attributes for model
+    for k,v in pyd_dict.items():
+        if k in ['bmi','age_group','lifestyle_risk','city_tier','income_lpa','occupation']:
+            out[k]=v
+## was giving some error (yet it was working though but code editor was marking it )
+    # input_df=pd.DataFrame(
+    #     [userInput.model_dump(include=['bmi','age_group','lifestyle_risk','city_tier','income_lpa','occupation'])])
+
+
+    input_df=pd.DataFrame([out])
+    prediction=model.predict(input_df)[0]
     prediction=model.predict(input_df)[0]
     return JSONResponse(status_code=200,content={'response':{'predicted_category':prediction}})
 
