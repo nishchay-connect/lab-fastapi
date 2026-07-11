@@ -43,4 +43,15 @@ something like this using streamlit
 
 and as we go towards development ,production side your frontends become much more that a .py but actually folders having html ,css,js or modern frameworks files.
 
+# A LEVEL UP 
+(writing tuned structures of files and folders to make it production grade)
 
+- Add the req field/model validations
+- Ensure seperation of concerns ,i.e. (MODEL,SCHEMA,API methods,CONFIG) 
+- Add the necessary try-catch (where the response depends on external file like model)
+
+- Response Model: As the response from API becomes complex its recommended to have a data validation model(pydantic model) for response as well 
+
+defined as---> @app.post('/predict',response_model=Response)
+
+the realisation is that just as designer of API u r the one to think in all aspects from client and server both aspect ,client side their should be proper docs to transfer a better communication and server side their should be well enough stratification so the code stays human friendly.
