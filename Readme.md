@@ -26,4 +26,21 @@ from file import router as r1
 app=FastAPI()
 app.include_router(r1)
 
+# WHAT METHOD TO CHOOSE WHEN
+- one important note down is that actually at a fundamental level get or post or any method isnt different but actually its the intentionally designed convention to seperate the type of request
+s
+- on the level of client server interaction its not diff as much but how is it interpreted and worked with is different so that everyone can work with it and theirs a uniformity and ease in the web development arena
+
+- get is expected to be that it wont do any change on server ,post is expected to provide data ,to work with on the server (which doesnt mean u cant do processing with get req but as we mentioned its a accepted defined convention)
+{that get is idempotent and post is not}
+
+# Linking to frontend
+and finally what the motive of API development is ,reached to serving the API to frontend 
+
+something like this using streamlit
+
+-    response = requests.post(API_URL, json=input_data)
+
+and as we go towards development ,production side your frontends become much more that a .py but actually folders having html ,css,js or modern frameworks files.
+
 
