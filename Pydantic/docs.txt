@@ -11,3 +11,13 @@ Api a safer and validated data transfer helps
 - Model Validator
 - Nested Model
 - Serialisation
+
+## 
+@classmethod
+-these methods actually are wrt class not object i.e when we use in field Validator actually
+the object is yet not created so directly the methods wont work so we use it as classmethod
+
+-# another important part is that though cls is not used everytime but its useful as it gives access
+to other class attrbutes for that method
+
+#cls is that class and self is the object of that class
