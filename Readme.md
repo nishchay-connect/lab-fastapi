@@ -55,3 +55,21 @@ and as we go towards development ,production side your frontends become much mor
 defined as---> @app.post('/predict',response_model=Response)
 
 the realisation is that just as designer of API u r the one to think in all aspects from client and server both aspect ,client side their should be proper docs to transfer a better communication and server side their should be well enough stratification so the code stays human friendly.
+
+# AWS CMDS
+
+sudo apt-get update
+
+sudo apt-get install -y docker.io
+
+sudo systemctl start docker
+
+sudo systemctl enable docker  # to maintain the docker running wether if server resets
+
+sudo docker pull <image name>
+
+sudo docker run -p 8000:8000 nishchayconnect/mltest
+(YET IT WONT WORK AS .first it req to 
+be http not https as we need to have sl certification for that )
+
+another being we need to open a port for it to be used
