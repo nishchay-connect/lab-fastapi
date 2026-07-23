@@ -56,6 +56,18 @@ defined as---> @app.post('/predict',response_model=Response)
 
 the realisation is that just as designer of API u r the one to think in all aspects from client and server both aspect ,client side their should be proper docs to transfer a better communication and server side their should be well enough stratification so the code stays human friendly.
 
+# Async Programming
+
+@app.get()
+async def func():
+    await request()
+    
+Now this is what beautifies FastAPI, the async programming that is ,the api can get a req now instead of waiting for it to finish it just ,goes to takes another req. This enables 1000s of users simultaneously using it and req getting handled.
+
+Important think to not is await is not that it skips that nd executes code ahead rather what it does is ,it makes the CPU or the worker idle for the time the await task is being done, this makes this worker free and available to be reached.
+
+Where as if we didnt had it , the resolution of req happens sequentially that is the 500th user wait for all 499 users to get their req finished one by one at time.
+
 # AWS CMDS
 
 sudo apt-get update
